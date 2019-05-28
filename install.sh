@@ -3,7 +3,7 @@
 osType=$(uname)
 
 if [[ "$osType" == 'Linux' ]]; then
-   sudo chmod -R 777 ./
+   #sudo chmod -R 777 ./
    sudo apt install php-bcmath
 fi
 
