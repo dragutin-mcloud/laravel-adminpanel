@@ -4,6 +4,7 @@ osType=$(uname)
 
 if [[ "$osType" == 'Linux' ]]; then
    sudo chmod -R 777 ./
+   sudo apt install php-bcmath
 fi
 
 echo -e "\033[32mCopy .env file...\033[0m"

@@ -53,9 +53,9 @@ If you have linux system, you can execute the command below only in your project
     1) sudo chmod -R 777 install.sh
     2) ./install.sh
 
-If you have windows system, you can run Artisan Command for database setup, connection and configuration.
+If you have windows system, you can run command for composer install, database setup, connection and configuration.
 
-    php artisan install:app
+    install.bat
 
 Generate a new application key
 
