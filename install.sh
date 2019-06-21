@@ -4,7 +4,7 @@ osType=$(uname)
 
 if [[ "$osType" == 'Linux' ]]; then
    #sudo chmod -R 777 ./
-   sudo apt install php-bcmath
+   sudo apt install php-bcmath php-curl	
 fi
 
 echo -e "\033[32mCopy .env file...\033[0m"
@@ -25,6 +25,7 @@ php -m
 echo "-----------------------------------------"
 
 echo -e "\033[32mStarting install laravel admin panel...\033[0m"
+
 composer install
 
 composer dump-autoload
